@@ -25,10 +25,56 @@ The example below "finds" an HTML element (with `id="demo"`), and changes the el
 
 ```javascript
 document.getElementById("demo").innerHTML = "Hello JavaScript";
+```
+
+try it yourself: 
+link: https://codepen.io/bhushcodes/pen/gbOmgYX
 
 JavaScript accepts both double and single quotes:
 
 ```javascript
-document.getElementById("demo").innerHTML = 'Hello JavaScript';
+document.getElementById('demo').innerHTML = 'Hello JavaScript';
 ```
+
+try it yourself: 
+link: https://codepen.io/bhushcodes/pen/jEOByOQ
+
+##JavaScript Can Change HTML Attribute Values
+
+In this example JavaScript changes the value of the src (source) attribute of an <img> tag:
+
+try it yourself: 
+
+link: https://codepen.io/bhushcodes/pen/PwopWZQ
+
+## JavaScript Can Change HTML Styles (CSS)
+
+Changing the style of an HTML element, is a variant of changing an HTML attribute:
+
+```javascript
+document.getElementById("demo").style.fontSize = "35px";
+```
+
+## JavaScript Can Hide HTML Elements
+
+Hiding HTML elements can be done by changing the display style:
+
+```javascript
+document.getElementById("demo").style.display = "none";
+```
+
+try it yourself:
+
+link: https://codepen.io/bhushcodes/pen/emYvepq
+
+## JavaScript Can Show HTML Elements
+
+Showing hidden HTML elements can also be done by changing the display style:
+
+```javascript
+document.getElementById("demo").style.display = "block";
+```
+try it yourself:
+
+link: https://codepen.io/bhushcodes/pen/JojWOXX
 
