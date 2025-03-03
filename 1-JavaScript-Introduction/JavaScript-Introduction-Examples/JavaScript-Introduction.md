@@ -55,6 +55,8 @@ Changing the style of an HTML element, is a variant of changing an HTML attribut
 document.getElementById("demo").style.fontSize = "35px";
 ```
 
+link: https://codepen.io/bhushcodes/pen/xbxqPLE
+
 ## JavaScript Can Hide HTML Elements
 
 Hiding HTML elements can be done by changing the display style:
