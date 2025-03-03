@@ -39,7 +39,7 @@ document.getElementById('demo').innerHTML = 'Hello JavaScript';
 try it yourself: 
 link: https://codepen.io/bhushcodes/pen/jEOByOQ
 
-##JavaScript Can Change HTML Attribute Values
+## JavaScript Can Change HTML Attribute Values
 
 In this example JavaScript changes the value of the src (source) attribute of an <img> tag:
 
