@@ -27,8 +27,8 @@ The example below "finds" an HTML element (with `id="demo"`), and changes the el
 document.getElementById("demo").innerHTML = "Hello JavaScript";
 ```
 
-try it yourself: 
-link: https://codepen.io/bhushcodes/pen/gbOmgYX
+**Try it yourself:**  
+[CodePen Link](https://codepen.io/bhushcodes/pen/gbOmgYX)
 
 JavaScript accepts both double and single quotes:
 
@@ -36,26 +36,26 @@ JavaScript accepts both double and single quotes:
 document.getElementById('demo').innerHTML = 'Hello JavaScript';
 ```
 
-try it yourself: 
-link: https://codepen.io/bhushcodes/pen/jEOByOQ
+**Try it yourself:**  
+[CodePen Link](https://codepen.io/bhushcodes/pen/jEOByOQ)
 
 ## JavaScript Can Change HTML Attribute Values
 
-In this example JavaScript changes the value of the src (source) attribute of an <img> tag:
+In this example, JavaScript changes the value of the `src` (source) attribute of an `<img>` tag:
 
-try it yourself: 
-
-link: https://codepen.io/bhushcodes/pen/PwopWZQ
+**Try it yourself:**  
+[CodePen Link](https://codepen.io/bhushcodes/pen/PwopWZQ)
 
 ## JavaScript Can Change HTML Styles (CSS)
 
-Changing the style of an HTML element, is a variant of changing an HTML attribute:
+Changing the style of an HTML element is a variant of changing an HTML attribute:
 
 ```javascript
 document.getElementById("demo").style.fontSize = "35px";
 ```
 
-link: https://codepen.io/bhushcodes/pen/xbxqPLE
+**Try it yourself:**  
+[CodePen Link](https://codepen.io/bhushcodes/pen/xbxqPLE)
 
 ## JavaScript Can Hide HTML Elements
 
@@ -65,9 +65,8 @@ Hiding HTML elements can be done by changing the display style:
 document.getElementById("demo").style.display = "none";
 ```
 
-try it yourself:
-
-link: https://codepen.io/bhushcodes/pen/emYvepq
+**Try it yourself:**  
+[CodePen Link](https://codepen.io/bhushcodes/pen/emYvepq)
 
 ## JavaScript Can Show HTML Elements
 
@@ -76,7 +75,6 @@ Showing hidden HTML elements can also be done by changing the display style:
 ```javascript
 document.getElementById("demo").style.display = "block";
 ```
-try it yourself:
 
-link: https://codepen.io/bhushcodes/pen/JojWOXX
-
+**Try it yourself:**  
+[CodePen Link](https://codepen.io/bhushcodes/pen/JojWOXX)
