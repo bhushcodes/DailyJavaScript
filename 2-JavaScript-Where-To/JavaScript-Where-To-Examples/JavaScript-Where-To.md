@@ -1,8 +1,8 @@
-The <script> Tag
+# The `<script>` Tag
 
-In HTML, JavaScript code is inserted between <script> and </script> tags.
+In HTML, JavaScript code is inserted between `<script>` and `</script>` tags.
 
-Example :
+## Example:
 
 ```html
 <script>
@@ -10,33 +10,41 @@ document.getElementById("demo").innerHTML = "My First JavaScript";
 </script>
 ```
 
-try it yourself:
+**Try it yourself:**  
+[CodePen Link](https://codepen.io/bhushcodes/pen/VYwpVKp)
 
-link: https://codepen.io/bhushcodes/pen/VYwpVKp
-
-Note : Old JavaScript examples may use a type attribute: ```html <script type="text/javascript">```.
+### Note:  
+Old JavaScript examples may use a type attribute:  
+```html
+<script type="text/javascript">
+```
 The type attribute is not required. JavaScript is the default scripting language in HTML.
 
-JavaScript Functions and Events:
+---
 
-A JavaScript function is a block of JavaScript code, that can be executed when "called" for.
+## JavaScript Functions and Events
+
+A JavaScript function is a block of JavaScript code that can be executed when "called" for.
 
 For example, a function can be called when an event occurs, like when the user clicks a button.
 
-JavaScript in ```html <head>``` or ```html <body> ```
+---
+
+## JavaScript in `<head>` or `<body>`
+
 You can place any number of scripts in an HTML document.
 
-Scripts can be placed in the ```html <body>```, or in the ```html <head>``` section of an HTML page, or in both.
+Scripts can be placed in the `<body>`, or in the `<head>` section of an HTML page, or in both.
 
+### JavaScript in `<head>`
 
-JavaScript in ```html <head>```
-In this example, a JavaScript function is placed in the ```html <head>``` section of an HTML page.
+In this example, a JavaScript function is placed in the `<head>` section of an HTML page.
 
 The function is invoked (called) when a button is clicked:
 
-Example :
+### Example:
 
-```html 
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -54,19 +62,20 @@ function myFunction() {
 
 </body>
 </html>
-
 ```
 
-try it yourself: 
+**Try it yourself:**  
+[CodePen Link](https://codepen.io/bhushcodes/pen/ZYEemLg)
 
-link: https://codepen.io/bhushcodes/pen/ZYEemLg
+---
 
-JavaScript in <body>
-In this example, a JavaScript function is placed in the <body> section of an HTML page.
+## JavaScript in `<body>`
+
+In this example, a JavaScript function is placed in the `<body>` section of an HTML page.
 
 The function is invoked (called) when a button is clicked:
 
-Example: 
+### Example:
 
 ```html
 <!DOCTYPE html>
@@ -87,21 +96,23 @@ function myFunction() {
 
 </body>
 </html>
-
 ```
 
-try it yourself:
+**Try it yourself:**  
+[CodePen Link](https://codepen.io/bhushcodes/pen/wBvJQJx)
 
-link: https://codepen.io/bhushcodes/pen/wBvJQJx
+### Note:  
+Placing scripts at the bottom of the `<body>` element improves the display speed, because script interpretation slows down the display.
 
-Note: Placing scripts at the bottom of the ```html <body>``` element improves the display speed, because script interpretation slows down the display.
+---
 
-External JavaScript
+## External JavaScript
+
 Scripts can also be placed in external files:
 
-External file: myScript.js
+### External file: `myScript.js`
 
-```javascript 
+```javascript
 function myFunction() {
   document.getElementById("demo").innerHTML = "Paragraph changed.";
 }
@@ -109,79 +120,78 @@ function myFunction() {
 
 External scripts are practical when the same code is used in many different web pages.
 
-JavaScript files have the file extension .js.
+JavaScript files have the file extension `.js`.
 
-To use an external script, put the name of the script file in the ```html src``` (source) attribute of a ```html <script>``` tag:
+To use an external script, put the name of the script file in the `src` (source) attribute of a `<script>` tag:
 
-Example: 
+### Example:
 
-```html <script src="myScript.js"></script>```
+```html
+<script src="myScript.js"></script>
+```
 
-try it yourself:
+**Try it yourself:**  
+[CodePen Link](https://codepen.io/bhushcodes/pen/EaxWOXV)
 
-link: https://codepen.io/bhushcodes/pen/EaxWOXV
+You can place an external script reference in `<head>` or `<body>` as you like.
 
-You can place an external script reference in ```html <head>``` or ```html <body>``` as you like.
+The script will behave as if it was located exactly where the `<script>` tag is placed.
 
-The script will behave as if it was located exactly where the ```html <script>``` tag is located.
+### Note:  
+External scripts cannot contain `<script>` tags.
 
-Note: External scripts cannot contain ```html <script>``` tags.
+---
 
-External JavaScript Advantages
+## External JavaScript Advantages
+
 Placing scripts in external files has some advantages:
 
-1. It separates HTML and code
-2. It makes HTML and JavaScript easier to read and maintain
-3. Cached JavaScript files can speed up page loads
+1. It separates HTML and code.
+2. It makes HTML and JavaScript easier to read and maintain.
+3. Cached JavaScript files can speed up page loads.
 
-To add several script files to one page  - use several script tags:
+To add several script files to one page, use multiple `<script>` tags:
 
-Example: 
+### Example:
 
 ```html
 <script src="myScript1.js"></script>
 <script src="myScript2.js"></script>
 ```
 
-External References
-An external script can be referenced in 3 different ways:
+---
 
-1. With a full URL (a full web address)
-2. With a file path (like /js/)
-3. Without any path
+## External References
 
-This example uses a full URL to link to myScript.js:
+An external script can be referenced in three different ways:
 
-Example: 
+1. With a full URL (a full web address).
+2. With a file path (like `/js/`).
+3. Without any path.
 
-```html <script src="https://www.w3schools.com/js/myScript.js"></script> ```
+### Example: Using a full URL to link to `myScript.js`
 
-try it yourself:
+```html
+<script src="https://www.w3schools.com/js/myScript.js"></script>
+```
 
-link: https://codepen.io/bhushcodes/pen/WbNpYEL
+**Try it yourself:**  
+[CodePen Link](https://codepen.io/bhushcodes/pen/WbNpYEL)
 
-This example uses a file path to link to myScript.js:
+### Example: Using a file path to link to `myScript.js`
 
-Example: 
+```html
+<script src="/js/myScript.js"></script>
+```
 
-```html <script src="/js/myScript.js"></script> ```
+**Try it yourself:**  
+[CodePen Link](https://codepen.io/bhushcodes/pen/wBvJQrE)
 
-try it yourself:
+### Example: Using no path to link to `myScript.js`
 
-link: https://codepen.io/bhushcodes/pen/wBvJQrE
+```html
+<script src="myScript.js"></script>
+```
 
-This example uses no path to link to myScript.js:
-
-Example: 
-
-```html <script src="myScript.js"></script>```
-
-try it yourself:
-
-link: https://codepen.io/bhushcodes/pen/emYvQMm
-
-
-
-
-
-
+**Try it yourself:**  
+[CodePen Link](https://codepen.io/bhushcodes/pen/emYvQMm)
